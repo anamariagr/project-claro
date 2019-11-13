@@ -5,7 +5,7 @@ import SectionNavbar from './Navbar';
 import "../css/App.css";
 import SectionList from './ListViw';
 import {
-  BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
+  BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 
 
@@ -13,7 +13,6 @@ import {
 function App(){
      return (
        <Router path="/home" exact  component={SectionMain}>
-         <Redirect to="/home"/>
            <div className="App section-principal">
            <SectionNavbar/>
            <Switch>
