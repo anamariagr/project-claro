@@ -25,7 +25,7 @@ class SectionMain extends React.Component {
                                         <div className="row">
                                             <div className="col-lg-9 col-6 pb-3 item-superior">
                                                 <div className="row">
-                                                    <div className="col-lg-3 col-6 pt-1 pb-2">
+                                                    <div className="col-lg-2 col-6 pt-1 pb-2">
                                                     <div className="btn-group">
                                                             <button
                                                                 type="button"
@@ -138,7 +138,7 @@ class SectionMain extends React.Component {
                                             className="collapse show"
                                             aria-labelledby="headingOne"
                                             data-parent="#accordionExample">
-                                            <div className="card-body pt-2 mt-1">
+                                            <div className="card-body">
                                                 <div className="row">
                                                     <div className="main-mobile">
                                                         <div className="row">

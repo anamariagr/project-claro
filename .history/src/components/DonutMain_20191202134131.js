@@ -411,7 +411,7 @@ class SectionSlider extends React.Component {
                                                                 <p>
                                                                     <span className="font-weight">{this.calculateInternetValue(15360, item.internet)}</span>
                                                                 </p>
-                                                                <p className="subtitle-donut-main">A OTRAS COMPAÑÍAS</p>
+                                                                <p className="subtitle-donut-main">A TODOS LOS CLARO</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -425,7 +425,7 @@ class SectionSlider extends React.Component {
                                                                 <p>
                                                                     <span className="font-weight">{this.calculateInternetValue(15360, item.internet)}</span>
                                                                 </p>
-                                                                <p className="subtitle-donut-main">A OTRAS COMPAÑÍAS</p>
+                                                                <p className="subtitle-donut-main">A TODOS LOS CLARO</p>
                                                             </div>
                                                         </div>
                                                     </div>

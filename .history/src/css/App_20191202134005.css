@@ -51,9 +51,7 @@ form.filter-list {
     color: #6b6868;
     font-size: 15px;
     margin-bottom: 10px;
-    width: 80px;
-    position: relative;
-    left: -5px;
+    width: 73px;
 }
 .elige-mobile {
     width: 267px;
@@ -101,11 +99,10 @@ i.fa.fa-check {
     color: #289cfb;
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
-    font-weight: 400;
 }
 .subtitle-donut-main{
   position: relative;
-  top: -15px;
+  top: -16px;
   font-size: 11px;
   font-family: 'Titillium Web', light;
   line-height: 14px;
@@ -203,7 +200,7 @@ i.fa.fa-check {
 }
 .hero {
     background-image: url('../imagen/backgroun-superior.png');
-    height: 74px;
+    height: 76px;
     width: 100%;
     background-size: 100%;
 }
@@ -304,7 +301,7 @@ g.donutchart-legend {
 .sutitles-donut {
   position: relative;
   top: 65px;
-  left: -3;
+  left: 0;
   line-height: 17px;
   font-size: 13px;
 }
@@ -371,9 +368,6 @@ g.donutchart-legend {
     position: relative;
     left: -6px;
 }
-.nav-title:hover{
-  color: #efefef;
-}
 .off50{
   height: 30px;
   width: 103px;
@@ -385,7 +379,6 @@ g.donutchart-legend {
   font-weight: bold;
   letter-spacing: -2px;
   padding-left: 9px;
-  line-height: 30px;
 
 }
 .donut-position-list{
@@ -1355,11 +1348,8 @@ img.imga-mobile {
         background-size: 99%;
 
     }
-    .navbar-viw{
-      background-color: red;
-    }
     .section-principal {
-        height: 648px;
+        height: 675px;
         width: 100%;
         background-image: url("../imagen/backgroun-mobile.png");
         background-size: 100%;

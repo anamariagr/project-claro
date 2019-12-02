@@ -371,9 +371,6 @@ g.donutchart-legend {
     position: relative;
     left: -6px;
 }
-.nav-title:hover{
-  color: #efefef;
-}
 .off50{
   height: 30px;
   width: 103px;
@@ -1355,11 +1352,8 @@ img.imga-mobile {
         background-size: 99%;
 
     }
-    .navbar-viw{
-      background-color: red;
-    }
     .section-principal {
-        height: 648px;
+        height: 675px;
         width: 100%;
         background-image: url("../imagen/backgroun-mobile.png");
         background-size: 100%;

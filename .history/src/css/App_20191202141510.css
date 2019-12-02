@@ -1355,11 +1355,8 @@ img.imga-mobile {
         background-size: 99%;
 
     }
-    .navbar-viw{
-      background-color: red;
-    }
     .section-principal {
-        height: 648px;
+        height: 675px;
         width: 100%;
         background-image: url("../imagen/backgroun-mobile.png");
         background-size: 100%;

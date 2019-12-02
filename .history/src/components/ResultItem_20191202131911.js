@@ -78,7 +78,7 @@ class SectionResulyItem extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 ml-3  donut-right">
+                        <div className="col-lg-4 donut-right">
                             <div className="row">
                                 <div className="col-lg-12">
                                     <Donut data={this.props.item.internet} maxvalue={15360}/>

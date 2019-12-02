@@ -27,10 +27,10 @@
 }
 .font-size-price-main{
   font-size: 45px;
-  font-weight: 800;
-  position: relative;
-  margin-bottom: -18px;
-  top: 0;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: -16px;
+    margin-top: -10px;
 }
 .search::before {
     font-family: FontAwesome;
@@ -51,9 +51,6 @@ form.filter-list {
     color: #6b6868;
     font-size: 15px;
     margin-bottom: 10px;
-    width: 80px;
-    position: relative;
-    left: -5px;
 }
 .elige-mobile {
     width: 267px;
@@ -100,19 +97,7 @@ i.fa.fa-check {
     left: 30px;
     color: #289cfb;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-}
-.subtitle-donut-main{
-  position: relative;
-  top: -15px;
-  font-size: 11px;
-  font-family: 'Titillium Web', light;
-  line-height: 14px;
-  color: black;
-  width: 61px;
-  left: 9px;
-
+    font-size: 15px;
 }
 .after{
   font-family: 'Titillium Web', sans-serif;
@@ -121,7 +106,7 @@ i.fa.fa-check {
     font-size: 18px;
     letter-spacing: -1px;
     text-decoration: line-through;
-    margin-bottom: 4px;
+    margin-bottom: 9px;
 }
 .font-simbol{
   font-size: 30px;
@@ -150,12 +135,6 @@ i.fa.fa-check {
 .economy{
   width: 120px;
   padding-top: 11px;
-}
-.economy-list{
-  width: 122px;
-  padding-top: 0;
-  position: relative;
-  top: -55px;
 }
 .row-with-donut{
   width: 100%;
@@ -203,7 +182,7 @@ i.fa.fa-check {
 }
 .hero {
     background-image: url('../imagen/backgroun-superior.png');
-    height: 74px;
+    height: 76px;
     width: 100%;
     background-size: 100%;
 }
@@ -240,32 +219,24 @@ i.fa.fa-check {
     background-color: #f5f5f5;
     border-color: #bcbdbd;
 }
-.arrow-main::after {
-  margin-bottom: 1px;
-  margin-left: 32px;
-  color: #2094ac;
-}
-
 .p-font-result{
   font-weight: 100;
-  padding-left: 7px;
 }
 .p-font {
   font-size: 15px;
-  line-height: 16px;
+  line-height: 19px;
   color: #3a3838;
   padding-top: 0;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 600;
-  padding-bottom: 4px;
+  font-weight: 700;
 
 }
 svg.donutchart {
-  width: 83px;
-  position: absolute;
-  height: 70px;
-  top: -10px;
-  left: 35px;
+    width: 83px;
+    position: absolute;
+    height: 54px;
+    top: 20px;
+    left: 35px;
 }
 .btn-group {
     height: 25px;
@@ -290,7 +261,7 @@ g.donutchart-legend {
 
 .year-position {
     position: relative;
-    
+    left: 20px;
 }
 .arrow-nav{
   position: relative;
@@ -302,11 +273,11 @@ g.donutchart-legend {
 
 
 .sutitles-donut {
-  position: relative;
-  top: 65px;
-  left: -3;
-  line-height: 17px;
-  font-size: 13px;
+    position: relative;
+    top: 60px;
+    left: 0;
+    line-height: 17px;
+    font-size: 13px;
 }
 .dropdown-menu li {
     margin-top: 10px;
@@ -371,24 +342,20 @@ g.donutchart-legend {
     position: relative;
     left: -6px;
 }
-.nav-title:hover{
-  color: #efefef;
-}
 .off50{
-  height: 30px;
-  width: 103px;
-  background-color: #ff5561;
-  border-radius: 7px;
-  margin-top: 3px;
-  color: white;
-  font-size: 21px;
-  font-weight: bold;
-  letter-spacing: -2px;
-  padding-left: 9px;
-  line-height: 30px;
+  height: 29px;
+    width: 100px;
+    background-color: #ff5561;
+    border-radius: 7px;
+    margin-top: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    padding-left: 9px;
 
 }
-.donut-position-list{
+.donut-position{
   position: relative;
     top: -23px;
     left: -6px;
@@ -397,7 +364,7 @@ g.donutchart-legend {
   position: relative;
   top: -12px;
   padding-bottom: 100px;
-  
+  left: 15px;
 
 }
 .navbar-top {
@@ -677,25 +644,20 @@ a:hover {
     padding-top: 8px;
 
 }
-.btn-ordenar {
-  position: relative;
-  top: -7px;
-  left: -7px;
-}
 .position-price-btn {
     position: relative;
     top: 60px;
 }
 .item-contrat {
     position: relative;
-    top: 14px;
+    top: 55px;
     font-size: 12px;
 }
 .item-year {
-  position: relative;
-  top: 13px;
-  font-size: 20px;
-  font-weight: 800;
+    position: relative;
+    top: 45px;
+    font-size: 22px;
+    font-weight: 800;
 }
 .navbar img {
     width: 70%;
@@ -1355,11 +1317,8 @@ img.imga-mobile {
         background-size: 99%;
 
     }
-    .navbar-viw{
-      background-color: red;
-    }
     .section-principal {
-        height: 648px;
+        height: 675px;
         width: 100%;
         background-image: url("../imagen/backgroun-mobile.png");
         background-size: 100%;

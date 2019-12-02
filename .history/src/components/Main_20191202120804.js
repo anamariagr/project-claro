@@ -138,7 +138,7 @@ class SectionMain extends React.Component {
                                             className="collapse show"
                                             aria-labelledby="headingOne"
                                             data-parent="#accordionExample">
-                                            <div className="card-body pt-2 mt-1">
+                                            <div className="card-body">
                                                 <div className="row">
                                                     <div className="main-mobile">
                                                         <div className="row">

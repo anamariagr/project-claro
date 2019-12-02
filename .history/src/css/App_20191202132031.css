@@ -27,10 +27,10 @@
 }
 .font-size-price-main{
   font-size: 45px;
-  font-weight: 800;
-  position: relative;
-  margin-bottom: -18px;
-  top: 0;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: -16px;
+    margin-top: -10px;
 }
 .search::before {
     font-family: FontAwesome;
@@ -51,9 +51,6 @@ form.filter-list {
     color: #6b6868;
     font-size: 15px;
     margin-bottom: 10px;
-    width: 80px;
-    position: relative;
-    left: -5px;
 }
 .elige-mobile {
     width: 267px;
@@ -101,18 +98,6 @@ i.fa.fa-check {
     color: #289cfb;
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
-    font-weight: 400;
-}
-.subtitle-donut-main{
-  position: relative;
-  top: -15px;
-  font-size: 11px;
-  font-family: 'Titillium Web', light;
-  line-height: 14px;
-  color: black;
-  width: 61px;
-  left: 9px;
-
 }
 .after{
   font-family: 'Titillium Web', sans-serif;
@@ -121,7 +106,7 @@ i.fa.fa-check {
     font-size: 18px;
     letter-spacing: -1px;
     text-decoration: line-through;
-    margin-bottom: 4px;
+    margin-bottom: 9px;
 }
 .font-simbol{
   font-size: 30px;
@@ -203,7 +188,7 @@ i.fa.fa-check {
 }
 .hero {
     background-image: url('../imagen/backgroun-superior.png');
-    height: 74px;
+    height: 76px;
     width: 100%;
     background-size: 100%;
 }
@@ -256,7 +241,7 @@ i.fa.fa-check {
   color: #3a3838;
   padding-top: 0;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   padding-bottom: 4px;
 
 }
@@ -290,7 +275,7 @@ g.donutchart-legend {
 
 .year-position {
     position: relative;
-    
+    left: 20px;
 }
 .arrow-nav{
   position: relative;
@@ -304,7 +289,7 @@ g.donutchart-legend {
 .sutitles-donut {
   position: relative;
   top: 65px;
-  left: -3;
+  left: 0;
   line-height: 17px;
   font-size: 13px;
 }
@@ -371,9 +356,6 @@ g.donutchart-legend {
     position: relative;
     left: -6px;
 }
-.nav-title:hover{
-  color: #efefef;
-}
 .off50{
   height: 30px;
   width: 103px;
@@ -385,7 +367,6 @@ g.donutchart-legend {
   font-weight: bold;
   letter-spacing: -2px;
   padding-left: 9px;
-  line-height: 30px;
 
 }
 .donut-position-list{
@@ -692,10 +673,10 @@ a:hover {
     font-size: 12px;
 }
 .item-year {
-  position: relative;
-  top: 13px;
-  font-size: 20px;
-  font-weight: 800;
+    position: relative;
+    top: 25px;
+    font-size: 22px;
+    font-weight: 800;
 }
 .navbar img {
     width: 70%;
@@ -1355,11 +1336,8 @@ img.imga-mobile {
         background-size: 99%;
 
     }
-    .navbar-viw{
-      background-color: red;
-    }
     .section-principal {
-        height: 648px;
+        height: 675px;
         width: 100%;
         background-image: url("../imagen/backgroun-mobile.png");
         background-size: 100%;

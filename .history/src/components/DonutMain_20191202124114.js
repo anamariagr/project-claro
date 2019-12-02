@@ -302,7 +302,7 @@ class SectionSlider extends React.Component {
                                                                 <p className="mb-0 p-font">
                                                                     REGION:
                                                                     <span>
-                                                                        <div class="btn-group btn-ordenar mb-0">
+                                                                        <div class="btn-group btn-ordenar">
                                                                             <button
                                                                                 type="button"
                                                                                 class="btn font-Titillium-Web"
@@ -310,7 +310,7 @@ class SectionSlider extends React.Component {
                                                                                 data-toggle="dropdown">ESTE</button>
                                                                             <button
                                                                                 type="button"
-                                                                                class="btn dropdown-toggle dropdown-toggle-split arrow-main"
+                                                                                class="btn dropdown-toggle dropdown-toggle-split pt-1 pl-0 arrow"
                                                                                 data-toggle="dropdown"
                                                                                 aria-haspopup="true"
                                                                                 aria-expanded="false">
@@ -393,10 +393,8 @@ class SectionSlider extends React.Component {
                                                                 <Donut data={item.messages} maxvalue={2000}/>
                                                             </div>
                                                             <div className="col-lg-12 sutitles-donut">
-                                                                <p>
-                                                                    <span className="font-weight">{this.calculateInternetValue(15360, item.internet)}</span>
-                                                                </p>
-                                                                <p className="subtitle-donut-main">A TODOS LOS CLARO</p>
+                                                                <span className="font-weight">{this.calculateInternetValue(15360, item.internet)}</span>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -408,10 +406,8 @@ class SectionSlider extends React.Component {
                                                                 <Donut data={item.messages} maxvalue={2000}/>
                                                             </div>
                                                             <div className="col-lg-12 sutitles-donut">
-                                                                <p>
-                                                                    <span className="font-weight">{this.calculateInternetValue(15360, item.internet)}</span>
-                                                                </p>
-                                                                <p className="subtitle-donut-main">A OTRAS COMPAÑÍAS</p>
+                                                                <span className="font-weight">{this.calculateInternetValue(15360, item.internet)}</span>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -422,10 +418,8 @@ class SectionSlider extends React.Component {
                                                                 <Donut data={item.messages} maxvalue={2000}/>
                                                             </div>
                                                             <div className="col-lg-12 sutitles-donut">
-                                                                <p>
-                                                                    <span className="font-weight">{this.calculateInternetValue(15360, item.internet)}</span>
-                                                                </p>
-                                                                <p className="subtitle-donut-main">A OTRAS COMPAÑÍAS</p>
+                                                                <span className="font-weight">{this.calculateInternetValue(15360, item.internet)}</span>
+
                                                             </div>
                                                         </div>
                                                     </div>
